@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>Blackpink Restaurant</title>
+
+		<link href="assets/fa/css/all.css" rel="stylesheet">
+		<script defer src="assets/fa/js/all.js"></script> 
+
+		<link rel="shortcut icon" href="assets/images/bp-icon.png">
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- Custom User CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/thematics-restaurant.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+
+		<link href="assets/css/color_scheme/pink.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<link id="css_dark_skin" href="assets/css/layout-dark.css" rel="stylesheet" type="text/css" title="dark" />
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky bottom dark header-md clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- BUTTONS -->
+
+						<!-- /BUTTONS -->
+
+
+						<!-- Logo -->
+						<a class="logo pull-left" href="#">
+							<h2 class="warna scrollTo">BLΛƆKPIИK</h2>
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main">
+									<li class=""><!-- HOME -->
+										<a href="#home" class="scrollTo">
+											HOME
+										</a>
+									</li>
+									<li class=""><!-- PAGES -->
+										<a class="scrollTo" href="#about">
+											ABOUT US
+										</a>
+									</li>
+									<li class=""><!-- FEATURES -->
+										<a class="scrollTo" href="#menu">
+											MENU
+										</a>
+									</li>
+									<li class=""><!-- PORTFOLIO -->
+										<a class="scrollTo" href="#promotion">
+											PROMOTION
+										</a>
+									</li>
+									<li class=""><!-- BLOG -->
+										<a class="scrollTo" href="#reservationn">
+											RESERVATION
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+
+			<!-- REVOLUTION SLIDER -->
+			<div class="slider fullwidthbanner-container roundedcorners">
+				<!--
+					Navigation Styles:
+					
+						data-navigationStyle="" theme default navigation
+						
+						data-navigationStyle="preview1"
+						data-navigationStyle="preview2"
+						data-navigationStyle="preview3"
+						data-navigationStyle="preview4"
+						
+					Bottom Shadows
+						data-shadow="1"
+						data-shadow="2"
+						data-shadow="3"
+						
+					Slider Height (do not use on fullscreen mode)
+						data-height="300"
+						data-height="350"
+						data-height="400"
+						data-height="450"
+						data-height="500"
+						data-height="550"
+						data-height="600"
+						data-height="650"
+						data-height="700"
+						data-height="750"
+						data-height="800"
+				-->
+				<div class="fullscreenbanner" data-height="600" data-shadow="0" data-navigationStyle="preview1">
+					<ul class="hide">
+
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 1" data-thumb="assets/images/bp-cafe-slide.jpg">
+
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/bp-cafe-slide.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
+
+							<div class="overlay dark-3"><!-- dark overlay [1 to 9 opacity] --></div>
+
+							<div class="tp-caption font-khausan-script customin ltl tp-resizeme large_bold_white text-center"
+								data-x="center"
+								data-y="230"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<span class="judul-warna"><span>BLΛƆKPIИK</span><br><br>Restaurant</span>
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme small_light_white font-lato size-20"
+								data-x="center"
+								data-y="350"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10; width: 100%; max-width: 750px; white-space: normal; text-align:center;">
+								
+							</div>
+
+
+
+						</li>
+
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 1" data-thumb="assets/images/bp-cafe.webp">
+
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/bp-cafe.webp" alt="" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat" />
+
+							<div class="overlay dark-3"><!-- dark overlay [1 to 9 opacity] --></div>
+
+							<div class="tp-caption font-khausan-script customin ltl tp-resizeme large_bold_white text-center"
+								data-x="center"
+								data-y="230"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<span class="judul-warna "><span>BLΛƆKPIИK</span><br><br>In You Area!</span>
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme small_light_white font-lato size-20"
+								data-x="center"
+								data-y="350"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10; width: 100%; max-width: 750px; white-space: normal; text-align:center;">
+								
+							</div>
+
+
+						</li>
+
+						<!-- SLIDE  -->
+
+
+					</ul>
+
+					<div class="tp-bannertimer"><!-- progress bar --></div>
+				</div>
+			</div>
+			<!-- /REVOLUTION SLIDER -->
+
+
+			
+			<!-- Welcome -->
+			<section id="home">
+				<div class="container">
+
+					<div class="text-center margin-top-80 margin-bottom-100 clearfix">
+						<h1 class="font-khausan-script size-50 weight-300 nomargin-bottom">Welcome To<br>World Of <span>Korean Food</span></h1>
+						<hr />
+						<h2 class="col-sm-10 col-sm-offset-1 nomargin-bottom weight-400 size-25">Feel the experience of eating at a restaurant with a korean style</h2>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-4">
+							<img class="img-responsive gambar" src="assets/images/demo/thematics/restaurant/chef_1-min.jpg" alt="img" />
+							<h3 class="margin-top-10">Blink Resto</h3>
+							<p style="text-align:justify;">Our restaurant has a good quality and that certainly to makes you comfortable to always come to our restaurant</p>
+						</div>
+
+						<div class="col-sm-4">
+							<img class="img-responsive gambar" src="assets/images/jennie-chef.jpg" alt="img" />
+							<h3 class="margin-top-10">Our Chefs</h3>
+							<p style="text-align:justify;">We have selected the chefs in our restaurant and consist only of chefs who are reliable and certified so they can maintain the quality of the menu we provide</p>
+						</div>
+
+						<div class="col-sm-4">
+							<img class="img-responsive gambar" src="assets/images/bp-cafe.jpg" alt="img" />
+							<h3 class="margin-top-10">Restaurant</h3>
+							<p>
+								Phone: +628 127-858-288 <br />
+								Address: Ahmad Yani Street<br />
+								Mountain View, CA 94043 <br />
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- /Welcome -->
+			
+			
+
+
+			<!-- Healthy -->
+			<section class="alternate" id="about">
+				<div class="container" >
+
+					<div class="row">
+						<div class="col col-md-10 col-md-offset-1">
+							<h2 class="font-khausan-script size-50 weight-300 nomargin-bottom tentang"><span>About Us</span></h2>
+							<h3 class="weight-400 size-25 tentang">KNOW MORE ABOUT US HERE</h3>
+							<hr>
+
+							<h2 class="ceo size-40 weight-300">Description</h2>
+							<div class="col-md-12 text-center">
+								<p>Blackpink restaurant is a restaurant that was founded by one of the content creators from Indonesia, Misellia Ikwan on April 4, 2019. The initial idea of ​​establishing a blackpink restaurant by Misellia was because there were so many K-POP fans in Indonesia, especially fans of the idol group Korea Blackpink. So Misellia took the opportunity to establish a Korean-themed restaurant serving Korean food and taking the blackpink theme to attract the attention of K-POP fans.</p>
+							</div>
+							
+							<h2 class="ceo size-40 weight-300">CEO</h2>
+
+							<div class="col-md-3 col-xs-12">
+								<a class="thumbnail" href="assets/images/manajer-misel.jpg">
+									<img class="img-responsive" src="assets/images/manajer-misel.jpg" alt="" />
+								</a>
+							</div>
+
+							<div class="col col-md-3 col-xs-4 bio-ceo">
+								<ul>
+									<li>Name</li>
+									<li>Date of Birth</li>
+									<li>City</li>
+									<li>Age</li>
+									<li>Religion</li>
+									<li>Study</li>
+									<br>
+									<li>Job</li>
+									<li>Family</li>
+								</ul>
+							</div>
+							<div class="col col-md-6 col-xs-8 bio-ceo">
+								<ul>
+									<li>: Misellia Ikwan</li>
+									<li>: 18 May 2004</li>
+									<li>: Surabaya, East Java</li>
+									<li>: 16 Years Old</li>
+									<li>: Christian</li>
+									<li>: SMP Kristen Petra 3, SMA Katolik St. Louis 1 Surabaya</li>
+									<li>: Singer, YouTuber, Selebgram</li>
+									<li>: Vianita Ikwan (Sister), Rafelia Ikwan (Sister)</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col col-md-10 col-md-offset-1 col-sm-12">
+							<p class="ceo weight-400 size-15"><span>"</span>If more of us valued food and cheer and song above hoarded gold, it would be a merrier world<span>"</span></p> 
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- /Healthy -->
+
+
+
+			<!-- Parallax -->
+			<section class="parallax parallax-1" style="background-image: url('assets/images/demo/thematics/restaurant/slider_3-min.jpg');" id="menu">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="font-khausan-script nomargin weight-300"><span>Our Menu</span></h3>
+						<p class="font-lato weight-300 lead nomargin-top">Food for the body is not enough. There must be food for the soul.</p>
+					</div>
+
+				</div>
+			</section>
+			<!-- /Parallax -->
+
+
+
+
+
+			<!-- Menu -->
+			<section>
+				<div class="container">
+					<h2 class="text-center">Favorite Menu</h2>
+					<div class="row">
+
+						<div class="col-sm-4">
+							<ul class="list-unstyled">
+
+								<li class="restaurant-menu-item border-bottom-dashed relative clearfix margin-bottom-40">
+									<a class="pull-left thumbnail nomargin-bottom lightbox" href="assets/images/menu1.jpg" data-plugin-options='{"type":"image"}'>
+										<img class="img-responsive" src="assets/images/menu1.jpg" width="50" alt="" />
+									</a>
+									<span class="pull-right size-17">$32<sup>00</sup></span>
+									<h5 class="margin-bottom-3"><span>TTEOKBOKKI</span></h5>
+
+									<span class="label label-success pull-right">BEST SELLER</span>
+									<p class="nomargin size-12">Alba White Truffle, Robiolo Emulsion</p>
+								</li>
+
+							</ul>
+							
+						</div>
+
+						<div class="col-sm-4">
+							<ul class="list-unstyled">
+
+								<li class="restaurant-menu-item border-bottom-dashed relative clearfix margin-bottom-40">
+									<a class="pull-left thumbnail nomargin-bottom lightbox" href="assets/images/menu2.jpg" data-plugin-options='{"type":"image"}'>
+										<img class="img-responsive" src="assets/images/menu2.jpg" width="50" alt="" />
+									</a>
+									<span class="pull-right size-17">$32<sup>00</sup></span>
+									<h5 class="margin-bottom-3"><span>DUMPLING</span></h5>
+									<span class="label label-success pull-right">BEST SELLER</span>
+									<p class="nomargin size-12">Fennel Mousseline, Sea Urchin, Finger Lime</p>
+								</li>
+
+							</ul>
+
+						</div>
+
+						<div class="col-sm-4">
+							<ul class="list-unstyled">
+
+								<li class="restaurant-menu-item border-bottom-dashed relative clearfix margin-bottom-40">
+									<a class="pull-left thumbnail nomargin-bottom lightbox" href="assets/images/menu3.jpg" data-plugin-options='{"type":"image"}'>
+										<img class="img-responsive" src="assets/images/menu3.jpg" width="50" alt="" />
+									</a>
+									<span class="pull-right size-17">$32<sup>00</sup></span>
+									<h5 class="margin-bottom-3"><span>JJAJANGMYEON</span></h5>
+									<span class="label label-success pull-right">BEST SELLER</span>
+									<p class="nomargin size-12">Fennel Mousseline, Sea Urchin, Finger Lime</p>
+								</li>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+					<div class="text-center margin-top-40">
+
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#moreModal">
+						View More
+					</button>
+					
+					<!-- Modal -->
+					<div class="modal fade" id="moreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">More Menu</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<!-- <span aria-hidden="true">&times;</span> -->
+							</button>
+							</div>
+							<div class="modal-body">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-sm-6">
+											<li class="restaurant-menu-item border-bottom-dashed relative clearfix margin-bottom-40">
+											<img class="img-responsive" src="assets/images/menu4.jpg" width="50" alt="" />
+											<span class="pull-right size-17">$32<sup>00</sup></span>
+											<h5 class="margin-bottom-3 pull-left"><span>BIBIMBAP</span></h5>
+											</li>
+										</div>
+										<div class="col-sm-6">
+											<li class="restaurant-menu-item border-bottom-dashed relative clearfix margin-bottom-40">
+											<img class="img-responsive" src="assets/images/menu5.jpg" width="50" alt="" />
+											<span class="pull-right size-17">$32<sup>00</sup></span>
+											<h5 class="margin-bottom-3 pull-left"><span>JJAMPONG</span></h5>
+											</li>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-6">
+											<li class="restaurant-menu-item border-bottom-dashed relative clearfix margin-bottom-40">
+											<img class="img-responsive" src="assets/images/menu6.jpg" width="50" alt="" />
+											<span class="pull-right size-17">$32<sup>00</sup></span>
+											<h5 class="margin-bottom-3 pull left"><span>SANGYETANG</span></h5>
+											</li>
+										</div>
+										<div class="col-sm-6">
+											<li class="restaurant-menu-item border-bottom-dashed relative clearfix margin-bottom-40">
+											<img class="img-responsive" src="assets/images/menu7.jpg" width="50" alt="" />
+											<span class="pull-right size-17">$32<sup>00</sup></span>
+											<h5 class="margin-bottom-3 pull-left"><span>KIMCHI</span></h5>
+											</li>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /Menu -->
+
+
+
+
+
+			<!-- Parallax -->
+			<section class="parallax parallax-2" style="background-image: url('assets/images/demo/video/back.jpg');" id="promotion">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="font-khausan-script nomargin weight-300"><span>Blink Restrurant Promotion</span></h3>
+						<p class="font-lato weight-300 lead nomargin-top">YOU DON'T WANT TO MISS OUR PROMO</p>
+					</div>
+
+				</div>
+			</section>
+			<!-- /Parallax -->
+
+
+
+
+
+			<!-- Events -->
+			<section>
+				<div class="container">
+
+					<header class="text-center margin-bottom-60 clearfix">
+						<h2 class="weight-300 nomargin-bottom">LIST OF <strong>PROMOTION</strong></h2>
+					</header>
+
+					<ul class="list-unstyled">
+
+						<li class="clearfix border-bottom-dotted relative margin-bottom-10 list-promo">
+							<a class="clearfix size-20 block relative padding-10" href="#">
+								<span class="pull-right text-pink size-14">Discount Up to 20% Every Friday</span>
+								FRIDAY DISCOUNT
+							</a>
+						</li>
+
+						<li class="clearfix border-bottom-dotted relative margin-bottom-10 list-promo">
+							<a class="clearfix size-20 block relative padding-10" href="#">
+								<span class="pull-right text-pink size-14">Discount Up to 20% Every 8 August</span>
+								BLACKPINK BIRTHDAY DISCOUNT
+							</a>
+						</li>
+
+						<li class="clearfix border-bottom-dotted relative margin-bottom-10 list-promo">
+							<a class="clearfix size-20 block relative padding-10" href="#">
+								<span class="pull-right text-pink size-14">Free 1 Drink per Week</span>
+								OFFICIAL FANS DISCOUNT
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
+			</section>
+			<!-- /Events -->
+
+
+
+
+			<!-- Parallax -->
+			<section class="parallax parallax-3" style="background-image: url('assets/images/demo/thematics/restaurant/parallax-min.jpg');" id="reservationn">
+				<div class="overlay dark-6"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="nomargin font-khausan-script"><span>Reservations</span></h3>
+						<p class="font-lato weight-300 lead nomargin-top">RSERVE YOUR TABLE NOW</p>
+					</div>
+
+				</div>
+
+			</section>
+			<!-- /Parallax -->
+
+
+
+
+			<!-- Reservation -->
+			<section id="reservation" class="alternate">
+				<div class="container">
+
+					<header class="text-center margin-bottom-60 clearfix">
+						<h2 class="weight-300 nomargin-bottom">RESTAURANT <strong>RESERVATION</strong></h2>
+					</header>
+
+					<form class="validate" action="" method="post" data-success="Reservation sent! Thank you!" data-toastr-position="none">
+						<div class="row">
+							<div class="col-md-4">
+								<input type="text" id="reservation_name" name="reservation_name" class="form-control required" placeholder="Name*">
+							</div>
+
+							<div class="col-md-4">
+								<input type="email" id="reservation_email" name="reservation_email" class="form-control required" placeholder="Email*">
+							</div>
+
+							<div class="col-md-4">
+								<input type="text" id="reservation_phone" name="reservation_phone" class="form-control required" placeholder="Phone*">
+							</div>
+
+						</div>
+						<div class="row">
+
+							<div class="col-md-4">
+								<input type="text" id="reservation_date" name="reservation_date" class="form-control datepicker required" data-format="yyyy-mm-dd" data-lang="en" data-RTL="false" placeholder="Reservation Date*">
+							</div>
+
+							<div class="col-md-4">
+								<input type="text" id="reservation_hour" name="reservation_hour" class="form-control required timepicker" value="11 : 00 : PM" placeholder="Reservation Hour*">
+							</div>
+
+							<div class="col-md-4">
+								<select id="reservation_people" name="reservation_people" class="form-control required">
+									<option value="1">1 Person</option>
+									<option value="2" selected="selected">2 People</option>
+									<option value="3">3 People</option>
+									<option value="4">4 People</option>
+									<option value="5">5 People</option>
+									<option value="6">6 People</option>
+									<option value="7">7 People</option>
+									<option value="8">8 People</option>
+									<option value="9">9 People</option>
+									<option value="10">10 People</option>
+									<option value="12">12 People</option>
+									<option value="15">15 People</option>
+									<option value="20">20 People</option>
+									<option value="25">25 People</option>
+									<option value="30">30 People</option>
+								</select>
+							</div>
+
+						</div>
+
+						<button class="btn btn-success" type="submit" id="booking" data-toggle="modal">SUBMIT RESERVATION</button>
+
+					</form>
+
+					<!-- MODAL -->
+					<div class="modal fade" id="reservasiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+							<h5 class="modal-title text-center" id="exampleModalLabel">Reservation Info</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							</button>
+							</div>
+							<div class="modal-body">
+								<div class="container-fluid">
+									<div class="row modal-isi">
+										<h2 class="text-center"><i class="fas fa-check-circle custom-i"></i></h2>
+										<div class="col-sm-3">
+											<h3>Name</h3>
+											<h3>Email</h3>
+											<h3>Phone</h3>
+											<h3>Date</h3>
+											<h3>Hour</h3>
+											<h3>Person</h3>
+										</div>
+										<div class="col-sm-9" id="booking-modal">
+											<h3 id="h31"></h3>
+											<h3 id="h32"></h3>
+											<h3 id="h33"></h3>
+											<h3 id="h34"></h3>
+											<h3 id="h35"></h3>
+											<h3 id="h36"></h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- AKHIR MODAL -->
+
+
+				</div>
+			</section>
+			<!-- /Reservation -->
+
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<!-- Footer Logo -->
+							<h2 class="text-center">BLΛƆKPIИK</h2>
+
+							<!-- <img class="footer-logo footer-2" src="assets/images/logo-footer.png" alt="" /> -->
+
+							<!-- Small Description -->
+							<p class="text-center thx">Thank you for visiting our website, don't forget to visit our restaurant and enjoy.</p>
+
+							<hr />
+
+							<div class="row">
+
+								<div class="col-md-12 col-sm-12">
+
+									<!-- Social Icons -->
+									<div class="clearfix text-center">
+
+										<p class="margin-bottom-10">Follow Us</p>
+										<a href="https://www.facebook.com/BLACKPINKOFFICIAL/" class="social-icon social-icon-sm social-icon-transparent social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+											<i class="icon-facebook"></i>
+											<i class="icon-facebook"></i>
+										</a>
+
+										<a href="https://twitter.com/blackpink?lang=id" class="social-icon social-icon-sm social-icon-transparent social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+											<i class="icon-twitter"></i>
+											<i class="icon-twitter"></i>
+										</a>
+
+									</div>
+									<!-- /Social Icons -->
+
+								</div>
+								
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="pull-right nomargin list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul>
+						&copy; All Rights Reserved, Company LTD
+					</div>
+				</div>
+			</footer>
+			<!-- /FOOTER -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		
+		<!-- STYLESWITCHER - REMOVE -->
+		<!-- <script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script> -->
+
+		
+
+		<!-- REVOLUTION SLIDER -->
+		<script type="text/javascript" src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="assets/js/view/demo.revolution_slider.js"></script>
+
+		<script src="assets/js/custom.js"></script>
+		
+
+	</body>
+</html>

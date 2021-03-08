@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.warna {
+    line-height: 70px;
+    color: pink;
+}
+
+.judul-warna {
+    color: pink;
+}
+
+.judul-warna span {
+    font-family: sans-serif;
+    color: pink;
+}
+
+.btn-default {
+    border-color: pink !important;
+}
+.btn-default:hover {
+    color: pink !important;
+}
+.btn-default:active {
+    color: black !important;
+}
+
+.btn-success {
+    background-color: pink !important;
+    color: black !important;
+}
+.btn-success:hover {
+    color: white !important;
+}
+.btn-success:active {
+    background-color: black !important;
+    color: pink !important;
+    border-color: pink !important;   
+}
+
+.tentang {
+    text-align: center;
+}
+
+.ceo {
+    text-align: center;
+    color: rgb(247,63,105);
+    font-family: 'Acme', sans-serif;
+}
+
+.bio-ceo ul li{
+    list-style: none;
+    font-size: 1.3em;
+    color: white;
+}
+
+.ceo-quote {
+    text-align: center;
+    color: pink;
+    font-family: 'Acme', sans-serif;
+}
+
+.ceo span {
+    font-size: 2em;
+    margin: 0 1.3em;
+}
+
+.list-promo:hover {
+    background-color: rosybrown;
+    border-radius: 7px;
+}
+
+.modal-isi h3 {
+    line-height: .3em;
+}
+
+.custom-i {
+    color: green;
+    font-size: larger;
+}
+
+footer h2 {
+    color: pink !important;
+}
+
+
+.thx {
+    font-size: larger;
+}
